@@ -1,9 +1,0 @@
-﻿  stdafx.cpp
-  D3D12HelloTriangle.cpp
-E:\DX12Homework\DX12Homework\homework1\Projecttest\D3D12HelloTriangle.cpp(201,3): warning C4305: 'argument': truncation from 'double' to 'float'
-  DXSample.cpp
-  main.cpp
-  Win32Application.cpp
-E:\DX12Homework\DX12Homework\homework1\Projecttest\Win32Application.cpp(41,1): warning C4002: too many arguments for function-like macro invocation 'CreateWindowW'
-  Generating Code...
-  Projecttest.vcxproj -> E:\DX12Homework\DX12Homework\homework1\x64\Debug\StartupProject.exe
