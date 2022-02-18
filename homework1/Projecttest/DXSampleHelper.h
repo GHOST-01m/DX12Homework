@@ -51,8 +51,9 @@ inline void GetAssetsPath(_Out_writes_(pathSize) WCHAR* path, UINT pathSize)
     {
         throw std::exception();
     }
+    DWORD size = GetCurrentDirectory(pathSize, path);
 
-    DWORD size = GetModuleFileName(nullptr, path, pathSize);
+    //DWORD size = GetModuleFileName(nullptr, path, pathSize);
     if (size == 0 || size == pathSize)
     {
         // Method failed or path was truncated.
