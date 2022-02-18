@@ -1,0 +1,3 @@
+﻿  D3D12HelloTriangle.cpp
+E:\CPPProject\Projecttest\Projecttest\D3D12HelloTriangle.cpp(201,3): warning C4305: 'argument': truncation from 'double' to 'float'
+  Projecttest.vcxproj -> E:\CPPProject\Projecttest\x64\Debug\StartupProject.exe

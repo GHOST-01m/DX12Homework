@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Projecttest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  D3D12HelloTriangle.cpp
+E:\CPPProject\Projecttest\Projecttest\D3D12HelloTriangle.cpp(205): error C2102: '&' requires l-value
+E:\CPPProject\Projecttest\Projecttest\D3D12HelloTriangle.cpp(207): error C2102: '&' requires l-value
+E:\CPPProject\Projecttest\Projecttest\D3D12HelloTriangle.cpp(297): error C2102: '&' requires l-value
+E:\CPPProject\Projecttest\Projecttest\D3D12HelloTriangle.cpp(316): error C2102: '&' requires l-value
+  DXSample.cpp
+  main.cpp
+  Win32Application.cpp
+E:\CPPProject\Projecttest\Projecttest\Win32Application.cpp(19,38): error C2440: '=': cannot convert from 'LRESULT (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'WNDPROC'
+E:\CPPProject\Projecttest\Projecttest\Win32Application.cpp(19,28): message : This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+E:\CPPProject\Projecttest\Projecttest\Win32Application.cpp(41,1): warning C4002: too many arguments for function-like macro invocation 'CreateWindowW'
+E:\CPPProject\Projecttest\Projecttest\Win32Application.cpp(71,36): error C2373: 'Win32Application::WindowProc': redefinition; different type modifiers
+E:\CPPProject\Projecttest\Projecttest\Win32Application.h(14): message : see declaration of 'Win32Application::WindowProc'
+  Generating Code...
